@@ -27,6 +27,8 @@ public class TemperatureCheck {
         System.out.println("Enter in the temperature: ");
         temperature = keyboard.nextInt();
 
+        keyboard.close();
+
         return temperature;
     }
 }
