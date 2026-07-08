@@ -1,7 +1,7 @@
 
 public class Exercise3 {
     public static void main(String[] args) {
-        int rows = 5;
+        int rows = 5; // Number of rows for stars
         int gap = 4; // Space between the two triangles
 // ==========================
 // Top Row
@@ -35,12 +35,12 @@ public class Exercise3 {
                 System.out.print(" ");
 // ===========================================
 // STUDENT CODE STARTS HERE
-            for (int j = 1; j <= i; j++ )
-                System.out.print("*");
 // Print the bottom-right triangle.
 // It should be an inverted triangle that
 // mirrors the bottom-left triangle.
 //
+            for (int j = 1; j <= i; j++)
+                System.out.print("*");
 // Hint:
 // Use a nested for loop to print '*' characters.
 //

@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class TemperatureCheck {
-    public static void main (String[] augs) {
+    public static void main ( String[] augs ) {
 
-        int temperature = userTemp();
+        int temperature = userTemp(); //temperature value 
 
         if ( temperature <= 32 ){
             System.out.println("It is freezing!");
@@ -18,9 +18,11 @@ public class TemperatureCheck {
 
     }
 
+    //function used for practice in java
+    //asks user for integer temperature value, reads inputted value, and returns integer to main function
     public static int userTemp(){
-        Scanner keyboard = new Scanner(System.in);
-        int temperature;
+        Scanner keyboard = new Scanner(System.in); //allows user input
+        int temperature; // temperature value
 
         System.out.println("Enter in the temperature: ");
         temperature = keyboard.nextInt();
